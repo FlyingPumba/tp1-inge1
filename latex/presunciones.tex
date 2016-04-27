@@ -35,6 +35,37 @@ Actualmente observamos en la empresa las siguientes limitaciones:
 \end{itemize}
 
 \subsection{Presentación sistema}
-El sistema que proponemos se caracteriza por simplificar las tareas dentro de la empresa, optimizar la elección de los proveedores, agilizar las comunicaciones, y permitir controles inmediatos. Para lograr estos fines, suponemos las siguientes presunciones de dominio y proponemos los siguientes requerimientos que serán cumplidos por el sistema:
+El sistema que proponemos se caracteriza por simplificar las tareas dentro de la empresa, optimizar la elección de los proveedores, agilizar las comunicaciones, y permitir controles inmediatos. Para lograr estos fines, suponemos las siguientes presunciones de dominio:
 
-TODO
+\begin{enumerate}
+    \item \textbf{Estructura de la empresa}:
+    \begin{enumerate}
+        \item Gerente
+        \item PMs
+        \item Empleados que se encargan de hacer Data entry
+        \item Contadores
+    \end{enumerate}    
+    \item \textbf{Creación de los proyectos}:
+    \begin{enumerate}
+        \item El cliente pide propuesta de proyecto o bien al PM, o bien al Gerente o bien al Sistema
+        \item El cliente tiene acceso a Internet
+        \item Todo proyecto nuevo se tiene que registrar en el sistema
+        \item Cada proyecto tiene exactamente un PM asignado
+        \item Hay un PM al menos en la empresa
+        \item El PM es el que negocia alcance, duración y condiciones con el cliente
+        \item El gerente siempre debe validar a los proveedores
+        \item Todo proveedor tiene que tener el seguro de caución actualizado al día
+        \item Los PM tienen una comisión por proyecto
+        \item Todos los contratos deben ser certificados por una escribanía
+    \end{enumerate}    
+    \item \textbf{Seguimiento de los proyectos}:
+    \begin{enumerate}
+        \item El PM es el encargado de contactar al proveedor y saber si hay un problema
+    \end{enumerate}
+    \item \textbf{Finalización de los proyectos}:
+    \begin{enumerate}
+        \item Todo proyecto finaliza
+        \item El PM es el encargado de finalizar el proyecto
+        \item El contador se encarga de manejar todos los pagos cuando se termina el proyecto
+    \end{enumerate}
+\end{enumerate}
